@@ -1,2 +1,2 @@
-# MyValentine.github.io
+# MyValentine
 Proyecto para mi amorcito, disfruten de san valentin
