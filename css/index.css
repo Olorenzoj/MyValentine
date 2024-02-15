@@ -43,7 +43,7 @@ body, html {
 }
 .heart:hover {
   transition:3s;
-  transform: scale(10); /* Escala un 10% más grande al hacer hover */
+  transform: scale(20); /* Escala un 10% más grande al hacer hover */
 }
 
 
