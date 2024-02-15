@@ -4,11 +4,16 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   function expandHeart() {
-    // Agrega la clase 'expanded' al contenedor del corazón
-    document.querySelector(".heart-container").classList.add("expanded");
-    // Redirige a la otra página después de un cierto tiempo
+    // Obtener el corazón
+    const heart = document.querySelector(".heart");
+     // Redirigir a la otra página después de cierto tiempo
     setTimeout(function() {
       window.location.href = "../html/valentine.html";
-    }, 1000); // Se cambió el tiempo a 1000ms para ajustarse a la duración de la animación
+    }, 1000); 
+    // Cambiar la escala del corazón a 20 en 1 segundos
+    heart.style.transition = "transform 1s ease";
+    heart.style.transform = "scale(20)";
+
+   
   }
 });
