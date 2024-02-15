@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const heart = document.querySelector(".heart");
      // Redirigir a la otra página después de cierto tiempo
     setTimeout(function() {
-      window.location.href = "../html/valentine.html";
+      window.location.href = "../html/valentine.md";
     }, 2300); 
     // Cambiar la escala del corazón a 20 en 1 segundos
     heart.style.transition = "transform 5s ease";
