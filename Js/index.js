@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 1250); 
     // Cambiar la escala del corazón a 20 en 1 segundos
     heart.style.transition = "transform 5s ease";
-    heart.style.transform = "scale(20)";
+    heart.style.transform = "scale(30)";
 
    
   }
