@@ -93,7 +93,7 @@ header .logo{
     animation-delay: 0.8s;
 }
 .slider .list .item.active p:nth-child(3){
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 .arrows{
     position: absolute;
